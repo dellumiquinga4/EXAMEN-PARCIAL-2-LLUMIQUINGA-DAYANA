@@ -21,7 +21,7 @@
         <java.version>17</java.version>
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
         <org.projectlombok.version>1.18.30</org.projectlombok.version>
-        <springdoc-openapi.version>2.3.0</springdoc-openapi.version>
+        <springdoc-openapi.version>2.8.3</springdoc-openapi.version>
     </properties>
 
     <dependencies>
@@ -38,14 +38,14 @@
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
 
-        <!-- OpenAPI Documentation -->
+        
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>${springdoc-openapi.version}</version>
         </dependency>
 
-        <!-- MapStruct and Lombok -->
+     
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
@@ -58,7 +58,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Test Dependencies -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
